@@ -1,0 +1,45 @@
+.country{
+    margin-top: 5rem;
+    height: 33rem;
+    background-color: black;
+    opacity: .8;
+    border-radius: 1rem;
+   
+}
+@media(min-width:350px) and (max-width:576px){
+    .country{
+    margin-top: 0;
+        
+    }
+}
+
+.country__Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.country__image{
+    height: 17rem;
+    width: 80%;
+    margin: 2rem auto;
+}
+.country__image:hover{
+    transform:scale(1.2);transform:scale(1.2);
+    transition-duration: .4s;
+    cursor: pointer;
+}
+.country__name{
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.country__name::first-letter{
+    text-transform: uppercase;
+}
+.country__continent{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+}

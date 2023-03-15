@@ -1,0 +1,66 @@
+
+.countryid{
+    min-height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.countryid__container{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, .5);
+    width: 80rem;
+
+}
+.countryid__pais{
+    width: 90%;
+    height: 100%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+@media(min-width:350px) and (max-width:720px){
+    .countryid__container{
+        padding-top: 4rem;
+        width: 80%;
+        margin: 10rem auto;
+
+    }
+    .countryid__pais{
+        flex-direction: column;
+        text-align: center;
+    }
+    .countryid__ActivityMap{
+        height: 40rem;
+    }
+}
+.countryid__ActivityMap{
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.countryid__button{
+    height: 4rem;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: bold;
+    background-image: url('https://img.freepik.com/foto-gratis/manos-ondeando-banderas-china-alemania-india-sudafrica-rusia_53876-30853.jpg?w=996&t=st=1677776674~exp=1677777274~hmac=61fd1f390900eb893170916f1ee85ecbdc624c861d6cdb020c8c2b30af55760f');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;    
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+.countryid__button:hover{  
+    background-image: linear-gradient(0deg, rgba(0,0,0 ,0.5),rgba(0,0,0 ,0.5)), url('https://img.freepik.com/foto-gratis/manos-ondeando-banderas-china-alemania-india-sudafrica-rusia_53876-30853.jpg?w=996&t=st=1677776674~exp=1677777274~hmac=61fd1f390900eb893170916f1ee85ecbdc624c861d6cdb020c8c2b30af55760f');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;    
+}

@@ -1,0 +1,31 @@
+.landing{
+    height: 100vh;
+}
+.landing__image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.landing__h1{
+    font-size: 7rem;
+    font-weight: lighter;
+    color: white;
+    margin-bottom: 20rem;
+}
+.landing__button{
+    font-size: 2.5rem;
+    border: none;
+    height: 5rem;
+    width: 20rem;
+    border-radius: 10px;
+    background-image: url('https://img.freepik.com/foto-gratis/manos-ondeando-banderas-china-alemania-india-sudafrica-rusia_53876-30853.jpg?w=996&t=st=1677776674~exp=1677777274~hmac=61fd1f390900eb893170916f1ee85ecbdc624c861d6cdb020c8c2b30af55760f');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: .8;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
